@@ -2,7 +2,7 @@
 name =input("name ")
 age= int(input("age "))
 a,b,c=input("enter 3 nosby spaces ").split() #Strings
-print(name,age,a,b,c)
+print(name,age,a,b,c) 
 e,f,g=map(int,input("enter 3 nos by space ").split()) #Integers
 print(e+f+g)
 #Read list of Nos Type of Items Inside
