@@ -48,6 +48,25 @@ def calculator(a, op, b):
     else:
         return "Invalid operator"
 
+def prime_or_not(num):
+    if num > 1:
+        for i in range(2, int(num/2)+1):
+            if (num % i) == 0:
+                return False
+        else:
+            return True
+    else:
+        return False
+
+def avg_marks(*args):
+    total = sum(args)
+    count = len(args)
+    return total / count if count > 0 else 0
+
+
+print(f"prime_or_not(7) -> {prime_or_not(7)}")
+print(f"avg_marks(85, 90, 78, 92) -> {avg_marks(85, 90, 78, 92)}")
+
 
 
 print(f"add(10, 5)              -> {add(10, 5)}")
