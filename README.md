@@ -5,6 +5,8 @@
 
 Welcome to my Python practice repository! This is a master index of my learning journey. I update this repo weekly with new concepts, algorithms, and projects as I progress from Python fundamentals to Data Structures & Algorithms (DSA) and real-world development.
 
+📚 **[Click here to view my complete Python Notes (Google Drive)](https://drive.google.com/drive/folders/11xyuZaw9NiInXcwO-92u6LbhLz3qNfd6?usp=sharing)**
+
 ---
 
 ## 📂 Repository Structure
